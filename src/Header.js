@@ -27,8 +27,10 @@ function Header() {
                 </div>
 
                 <div className="header__optionBasket">
+                    {/* Shopping basket icon */}
                     <span className="header__optionLineTwo header__basketCount">0</span>
                 </div>
+
             </div>
         </div>
     );
