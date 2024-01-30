@@ -1,31 +1,29 @@
-import React from 'react'
-import './Home.css'
-import home_image from './images/home_image.jpg'
+import React from "react";
+import "./Home.css";
+import home_image from "./images/home_image.jpg";
+import Product from "./Product";
 
 function Home() {
   return (
-    <div className='home'>
-    <div className='home__container'>
-      <img src={home_image} alt='' className='home__image' />
-    </div>
+    <div className="home">
+      <div className="home__container">
+        <img src={home_image} alt="" className="home__image" />
+      </div>
 
-    <div className='home__row'>
-      {/* Product */}
-      {/* Product */}
-    </div>
+      <div className="home__row">
+        <Product />
+        <Product />
+      </div>
 
-    <div className='home__row'>
-      {/* Product */}
-      {/* Product */}
-      {/* Product */}
-    </div>
+      <div className="home__row">
+        <Product />
+        <Product />
+        <Product />
+      </div>
 
-    <div className='home__row'>
-      {/* Product */}
+      <div className="home__row">{/* Product */}</div>
     </div>
-
-    </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
