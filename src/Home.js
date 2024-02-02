@@ -27,13 +27,33 @@ function Home() {
         </div>
 
         <div className="home__row">
-          <Product />
-          <Product />
-          <Product />
+          <Product
+            title="Razer BlackShark"
+            price={49.99}
+            image={headphone}
+            rating={4}
+          />
+          <Product
+            title="Razer BlackWidow"
+            price={169.99}
+            image={keyboard}
+            rating={5}
+          />
+          <Product
+            title="Razer BlackShark"
+            price={49.99}
+            image={headphone}
+            rating={4}
+          />
         </div>
 
         <div className="home__row">
-          <Product />
+          <Product
+            title="Razer BlackWidow"
+            price={169.99}
+            image={keyboard}
+            rating={5}
+          />
         </div>
       </div>
     </div>

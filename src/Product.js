@@ -1,6 +1,5 @@
 import React from "react";
 import "./Product.css";
-import headphone from "./images/headphones.jpg";
 
 function Product({ title, image, price, rating }) {
   return (
